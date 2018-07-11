@@ -1,5 +1,5 @@
 {
-  "name": "battlefield",
+  "name": "ships",
   "version": "0.0.1",
   "repository": {
     "type": "git"
@@ -11,7 +11,7 @@
     "ws": "^0.4.32"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "~8"
   },
   "scripts": {
     "start": "node main.js"
