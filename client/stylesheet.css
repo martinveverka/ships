@@ -1,0 +1,49 @@
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #fff;
+}
+
+#container {
+	position: relative;
+	margin: 3em auto;
+	font-family: Consolas, monospace;
+}
+
+.matrix {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 1px 0 0 1px;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+}
+
+.field {
+	position: absolute;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+}
+
+.box {
+	float: left;
+	border: 1px solid #fff;
+	margin: -1px 0 0 -1px;
+	overflow: hidden;
+	text-align: center;
+	font-size: inherit;
+}
+
+#matrix-base {
+	border-color: rgba(0, 0, 0, 0.02);
+}
+#matrix-base .box {
+	border-color: rgba(0, 0, 0, 0.02);
+	color: #666;
+}

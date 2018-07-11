@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lodě</title>
+        <link rel="stylesheet" href="/client/stylesheet.css">
+    </head>
+
+    <body>
+
+        <div id="container"></div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/client/socket.js"></script>
+        <script src="/client/game.js"></script>
+        <script>
+                var container = document.getElementById('container');
+
+                var game = new Game();
+                game.render(container);
+                game.connect();
+        </script>
+
+    </body>
+</html>
